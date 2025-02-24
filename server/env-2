@@ -1,0 +1,20 @@
+# .env.sample - Sample Environment Variables
+
+# Application Configuration
+APP_PORT=3310
+APP_SECRET=YOUR_APP_SECRET_KEY
+
+# Database Configuration
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=nino
+DB_PASSWORD=diving
+DB_NAME=veever
+JWT_SECRET=5ae3662757a5ab3f5c65eb7ced62e6cc59708b3de4a17f90ad4d96d1a6fb9e82
+CLIENT_URL=http://localhost:3000
+SESSION_SECRET=avAtXayf5jI658ZMtjMh+csovOpfY5hcS7tTt8XP9pA=
+BACKEND_URL=http://localhost:3310
+
+# About specific needs, please ask your trainer about the deploiement project name and follow the pattern
+# You can add as much variable as needed. Don't forget to tell your trainer about it. Otherwise, it could break on deploiement
+PROJECT_NAME_SPECIFIC_NAME=YOUR_SPECIFIC_VALUE
